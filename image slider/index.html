@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Image Slider</title>
+</head>
+
+<body>
+    <section id="main">
+        <div class="imageshow">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-3">
+                        <div class="image_item">
+                            <img src="img/sm/1.jpg" data-index="0" data-img="1.jpg" data-msg="Nature and sunrise">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="image_item">
+                            <img src="img/sm/2.jpg" data-index="1" data-img="2.jpg" data-msg="Snow">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="image_item">
+                            <img src="img/sm/3.jpg" data-index="2" data-img="3.jpg" data-msg="Mountains and fjords">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="image_item">
+                            <img src="img/sm/4.jpg" data-index="3"  data-img="4.jpg" data-msg="Northern Lights">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="modalwindow">
+            <div class="cover">
+                <div class="timing">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+
+            <div class="slider">
+                <img src="img/lg/1.jpg">
+
+                <p>Nature and sunrise</p>
+
+                <span class="button right">
+                    <i class="fas fa-chevron-right"></i>
+                </span>
+
+                <span class="button left">
+                    <i class="fas fa-chevron-left"></i>
+                </span>
+
+
+                <div class="nav_bottom_image">
+                    <div class="bottom_image_item">
+                        <img src="img/sm/1.jpg">
+                        <div class="cover_item active"></div>
+                    </div>
+                    <div class="bottom_image_item">
+                        <img src="img/sm/2.jpg">
+                        <div class="cover_item"></div>
+                    </div>
+                    <div class="bottom_image_item">
+                        <img src="img/sm/3.jpg">
+                        <div class="cover_item"></div>
+                    </div>
+                    <div class="bottom_image_item">
+                        <img src="img/sm/4.jpg">
+                        <div class="cover_item"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
